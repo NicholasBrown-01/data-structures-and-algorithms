@@ -7,9 +7,14 @@ Write a function that finds the maximum value in an array
 using the 'reduce' method.
 
 E.g. [4,2,7,5,9,2] -> 9
+
+*** I had to use ChatGPT help with this one.
 ------------------------------------------------------------------------------------------------ */
 const maxInArray = (arr) => {
-  // Solution code here...
+  // Solution code here..
+  return arr.reduce((max, current) => {
+    return current > max ? current : max;
+  }, arr[0]);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -72,6 +77,8 @@ const updateNumbers = (obj) => {
 CHALLENGE 5
 
 Write a function named getHouses that returns a new array containing the names of all of the houses in the data set.
+
+*** Class Review
 ------------------------------------------------------------------------------------------------ */
 
 const characters = [
@@ -120,6 +127,9 @@ const characters = [
 const getHouses = (arr) => {
   let houses = [];
   // Solution code here...
+  arr.forEach(person => {
+    houses.push(person.house);
+  });
   return houses;
 };
 
@@ -133,11 +143,23 @@ This function should take in an array of data and a character name and return a 
 For example:
 hasChildrenValues(characters, 'Cersei') will return true
 hasChildrenValues(characters, 'Sansa') will return false
+
+*** Class Review
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
   // Solution code here...
+  let hasChildren = false;
 
+  arr.forEach(person => {
+    if(person.name === character){
+      let values = Object.values(person);
+
+      values.length === 4 ? hasChildren = true : hasChildren;
+
+    }
+  });
+  return hasChildren;
 };
 
 /* ------------------------------------------------------------------------------------------------
