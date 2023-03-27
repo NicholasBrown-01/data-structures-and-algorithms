@@ -29,6 +29,7 @@ return: 23
 ------------------------------------------------------------------------------------------------ */
 const findMax = (matrix) => {
   // Solution code here...
+  return Math.max(...matrix.flat());
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -44,9 +45,11 @@ For example:
 ]
 
 return: 35
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
 ------------------------------------------------------------------------------------------------ */
 const totalSum = (matrix) => {
   // Solution code here...
+  return matrix.flat().reduce((sum, num) => sum + num, 0);
 };
 
 
@@ -60,6 +63,7 @@ Write a function named grandTotal that adds up the cookies sales for each hour o
 For this example, the total at 9:00 a.m. is 17 + 26 + 7 + 5 + 33, or 88 total cookies.
 
 Return the array of the total number of cookies sold per hour for all of the stores combined.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat and Chat GPT
 ------------------------------------------------------------------------------------------------ */
 
 const hoursOpen = ['9 a.m.', '10 a.m.', '11 a.m.', '12 p.m.', '1 p.m.', '2 p.m.', '3 p.m.', '4 p.m.', '5 p.m.', '6 p.m.', '7 p.m.', '8 p.m.'];
@@ -74,6 +78,9 @@ const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
   // Solution code here...
+  return stores.reduce((hourlySales, store) => {
+    return hourlySales.map((totalCookiesSold, i) => totalCookiesSold + store[i]);
+  });
 
 };
 
@@ -89,6 +96,16 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 
 const salesData = (hours, data) => {
   // Solution code here...
+  let salesArr = [];
+
+  data.forEach((cookieVal, idx) =>{
+    salesArr.push({
+      sales: `${cookieVal} cookies`,
+      time: hours[idx]
+    });
+  });
+
+  return salesArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -114,6 +131,7 @@ const errands = [
 
 const howManyTreats = (arr) => {
   // Solution code here...
+  return arr[2].items[1].quantity;
 };
 
 /* ------------------------------------------------------------------------------------------------
