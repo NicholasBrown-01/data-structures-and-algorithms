@@ -8,6 +8,7 @@ public class LinkedListTest {
 
   @Test //Can successfully instantiate an empty linked list
   void instantiateEmptyListTEST() {
+    //Arrange
     LinkedList sut = new LinkedList();
     //Assert
     assertNull(sut.head);
@@ -16,7 +17,10 @@ public class LinkedListTest {
   }
   @Test //Can properly insert into the linked list
   void insertNodeTEST() {
+    //Arrange
     LinkedList sut = new LinkedList();
+
+    //Act
     sut.insert(21);
 
     //Assert
@@ -25,7 +29,10 @@ public class LinkedListTest {
   }
   @Test //Will return true when finding a value within the linked list that exists AND false when searching for a value in the linked list that does not exist
   void includesNodeTEST() {
+    //Arrange
     LinkedList sut = new LinkedList();
+
+    // Act
     sut.insert(33);
 
     //Assert
@@ -37,17 +44,78 @@ public class LinkedListTest {
 
   @Test //Can properly return a collection of all the values that exist in the linked list
   void toStringNodeTEST() {
+    //Arrange
     LinkedList sut = new LinkedList();
+    //Act
     sut.insert('a');
     sut.insert('b');
     sut.insert('c');
     sut.insert('d');
     sut.insert('e');
-
     String tested = sut.toString();
     String expected = "{ e } -> { d } -> { c } -> { b } -> { a } -> NULL";
     //Assert
     assertEquals(expected, tested);
     System.out.println("The expected string: "+expected+ "\n" + "matched the string tested: "+tested);
+  }
+
+  ///////////////////// CODE CHALLENGE 06 ////////////////////////////
+  @Test
+  void appendNodeTEST() {
+    //Arrange
+    LinkedList sut = new LinkedList();
+    //Act
+      sut.append(5);
+      sut.append(10);
+      sut.append(15);
+    //Assert
+    assertTrue(sut.includes(5));
+    System.out.println("Was 5 present in the list: "+sut.includes(5));
+    assertTrue(sut.includes(10));
+    System.out.println("Was 10 present in the list: "+sut.includes(10));
+    assertTrue(sut.includes(15));
+    System.out.println("Was 15 present in the list: "+sut.includes(15));
+    assertFalse(sut.includes(20));
+    System.out.println("Was 20 present in the list: "+sut.includes(20));
+  }
+
+  @Test
+  void insertBeforeNodeTEST() {
+    //Arrange
+    LinkedList sut = new LinkedList();
+    //Act
+    sut.append(5);
+    sut.append(10);
+    sut.append(15);
+    sut.insertBefore(6, 15);
+    //Assert
+    assertTrue(sut.includes(5));
+    System.out.println("Was 8 present in the list: " + sut.includes(5));
+    assertTrue(sut.includes(10));
+    System.out.println("Was 10 present in the list: " + sut.includes(10));
+    assertTrue(sut.includes(6));
+    System.out.println("6 INSERTED BEFORE: " + sut.includes(6));
+    assertTrue(sut.includes(15));
+    System.out.println("Was 15 present in the list: " + sut.includes(15));
+  }
+
+  @Test
+  void insertAfterNodeTEST() {
+    //Arrange
+    LinkedList sut = new LinkedList();
+    //Act
+    sut.append(5);
+    sut.append(10);
+    sut.append(15);
+    sut.insertAfter(6, 15);
+    //Assert
+    assertTrue(sut.includes(5));
+    System.out.println("Was 8 present in the list: " + sut.includes(5));
+    assertTrue(sut.includes(10));
+    System.out.println("Was 10 present in the list: " + sut.includes(10));
+    assertTrue(sut.includes(6));
+    System.out.println("6 INSERTED AFTER: " + sut.includes(6));
+    assertTrue(sut.includes(15));
+    System.out.println("Was 15 present in the list: " + sut.includes(15));
   }
 }
