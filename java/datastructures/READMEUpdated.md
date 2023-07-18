@@ -23,3 +23,20 @@ NOTE:Tests must be run one at a time due to a "rg.junit.platform.launcher.core.E
 INFO: 0 containers and 3 tests were Method or class mismatch" error I receive when doing all at once.
 
 This challenge was completed with the resources of Class Github, Youtube, GPT.
+
+## Code Challenge 06
+
+Methods:
+- Append
+- Insert Before
+- Insert After
+
+Test were also written that:
+- Can successfully add a node to the end of the linked list
+- Can successfully add multiple nodes to the end of a linked list
+- Can successfully insert a node before a node located i the middle of a linked list
+- Can successfully insert a node before the first node of a linked list
+- Can successfully insert after a node in the middle of the linked list
+-Can successfully insert a node after the last node of the linked list
+-
+  This challenge was completed with the resources of Class Github, Youtube, GPT.
