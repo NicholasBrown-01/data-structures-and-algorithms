@@ -93,5 +93,28 @@ public class LinkedList { // Needs to be accessible to run. Probably helps. A lo
     stringNode.append("NULL"); // No next node? Make it "NULL"
       return stringNode.toString(); // Let's make really sure we are getting back a String and not some I@65537 stuff
   }
+
+  //////////// CODE CHALLENGE 07 ////////////////////////
+  public int kthFromEnd(int k) {
+    if (head == null || k < 0) {
+      throw new IllegalArgumentException("List is empty or k is not positive");
+    }
+
+    Node p1 = head; // Set P1 to head along with P2
+    Node p2 = head;
+
+    for (int i = 0; i < k; i++) { // Move P1 along the LinkedList to find the end.
+      p1 = p1.next; // Set P1 to the last node
+      if (p1 == null) // Need to make sure k is not longer than the LinkedList
+        throw new IllegalArgumentException("k exceeds length");
+    }
+
+
+    while (p1.next != null) {
+      p1 = p1.next;
+      p2 = p2.next; // Set P2 to P1 to count back from.
+    }
+    return p2.value;
+  }
 }
 

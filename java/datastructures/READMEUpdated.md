@@ -37,6 +37,24 @@ Test were also written that:
 - Can successfully insert a node before a node located i the middle of a linked list
 - Can successfully insert a node before the first node of a linked list
 - Can successfully insert after a node in the middle of the linked list
--Can successfully insert a node after the last node of the linked list
+- Can successfully insert a node after the last node of the linked list
 -
   This challenge was completed with the resources of Class Github, Youtube, GPT.
+
+
+## Code Challenge 07
+
+Methods:
+KTH From End
+
+Test were also written that:
+- Where k is greater than the length of the linked list
+- Where k and the length of the list are the same
+- Where k is not a positive integer
+- Where the linked list is of a size 1
+- “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
+-
+This challenge was completed with teamwork from Alex Chao. Whiteboard img attached for our planning process.<br>
+We did have to look up the dual pointer process and have a written example to follow from which we drew.
+
+![Code Challenge 07 Whiteboard Psuedo Code.png](lib%2Fsrc%2Ftest%2Fjava%2FCode%20Challenge%2007%20Whiteboard%20Psuedo%20Code.png)
