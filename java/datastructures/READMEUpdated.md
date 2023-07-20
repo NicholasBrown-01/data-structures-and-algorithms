@@ -58,3 +58,16 @@ This challenge was completed with teamwork from Alex Chao. Whiteboard img attach
 We did have to look up the dual pointer process and have a written example to follow from which we drew.
 
 ![Code Challenge 07 Whiteboard Psuedo Code.png](lib%2Fsrc%2Ftest%2Fjava%2FCode%20Challenge%2007%20Whiteboard%20Psuedo%20Code.png)
+
+
+## Code Challenge 08
+
+Linked List Zip
+
+Test were also written that:
+
+This challenge was a whiteboard to pseudo code event in which we attempt to explain out way
+through taking multiple args in the form of linked list and combining them into a sintle output.
+
+
+![Code Challenge 08 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2008%20Whiteboard.png)
