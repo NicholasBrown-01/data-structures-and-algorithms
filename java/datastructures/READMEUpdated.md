@@ -77,3 +77,24 @@ Stack and Queue
 This challenge was to hand-write methods for Stacks: Push, Pop, Peek, isEmpty and Queues: enqueue, dequeue, peek, isEmpty.
 
 ![Code Challenge 10 Whiteboard.png](lib%2Fsrc%2Ftest%2Fjava%2Fdatastructures%2Flinkedlist%2Fstack%2FCode%20Challenge%2010%20Whiteboard.png)
+
+
+## Code Challenge 11
+
+Stack Queue Pseudo
+
+This challenge was to:
+- Create a new class called pseudo queue.
+- Do not use an existing Queue.
+- Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below),
+- Internally, utilize 2 Stack instances to create and manage the queue <br>
+-
+Methods:
+- enqueue
+- =Arguments: value
+- Inserts a value into the PseudoQueue, using a first-in, first-out approach.
+- dequeue
+- Arguments: none
+- Extracts a value from the PseudoQueue, using a first-in, first-out approach.
+-
+![Code Challenge 11 WhiteBoard.png](lib%2Fsrc%2Ftest%2Fjava%2Fdatastructures%2Flinkedlist%2Fstack%2FCode%20Challenge%2011%20WhiteBoard.png)
