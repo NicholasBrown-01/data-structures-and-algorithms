@@ -98,3 +98,29 @@ Methods:
 - Extracts a value from the PseudoQueue, using a first-in, first-out approach.
 -
 ![Code Challenge 11 WhiteBoard.png](lib%2Fsrc%2Ftest%2Fjava%2Fdatastructures%2Flinkedlist%2Fstack%2FCode%20Challenge%2011%20WhiteBoard.png)
+
+
+## Code Challenge 12
+
+Animal Shelter
+
+This challenge was to:
+- Create a class called AnimalShelter which holds only dogs and cats.
+- The shelter operates using a first-in, first-out approach.
+- Implement the following methods:
+
+Enqueue:
+
+- Arguments: animal
+- animal can be either a dog or a cat object.
+- It must have a species property that is either "cat" or "dog"
+- It must have a name property that is a string.
+-
+Dequeue:
+
+- Arguments: pref
+- pref can be either "dog" or "cat"
+- Return: either a dog or a cat, based on preference.
+- If pref is not "dog" or "cat" then return null.
+
+![Code Challenge 12 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2012%20Whiteboard.png)
