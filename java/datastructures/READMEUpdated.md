@@ -124,3 +124,22 @@ Dequeue:
 - If pref is not "dog" or "cat" then return null.
 
 ![Code Challenge 12 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2012%20Whiteboard.png)
+
+
+## Code Challenge 13
+
+Multi-bracket Validation
+
+This challenge was to:
+- Write a function called validate brackets
+- Arguments: string
+- Return: boolean representing whether or not the brackets in the string are balanced
+
+
+There are 3 types of brackets:
+
+- Round Brackets : ()
+- Square Brackets : []
+- Curly Brackets : {}
+
+![Code Challenge 13 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2013%20Whiteboard.png)
