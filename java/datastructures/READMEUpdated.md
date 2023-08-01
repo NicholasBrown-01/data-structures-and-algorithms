@@ -185,3 +185,16 @@ Includes tests that:
 - Can successfully return a collection from an in-order traversal
 - Can successfully return a collection from a post-order traversal
 - Returns true	false for the contains method, given an existing or non-existing node value
+
+## Code Challenge 16
+
+Maximum Value in Binary Tree:
+
+Write the following method for the Binary Tree class
+
+- find maximum value
+- Arguments: none
+- Returns: number
+- Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+![Code Challenge 16 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2016%20Whiteboard.png)
