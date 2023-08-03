@@ -198,3 +198,35 @@ Write the following method for the Binary Tree class
 - Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
 
 ![Code Challenge 16 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2016%20Whiteboard.png)
+
+
+## Code Challenge 17
+
+Breadth First Traversal:
+
+Write the following method for the Binary Tree class
+
+- Write a function called breadth first
+- Arguments: tree
+- Return: list of all values in the tree, in the order they were encountered
+
+![Code Challenge 17 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2017%20Whiteboard.png)
+
+## Code Challenge 18
+
+FizzBuzz Tree:
+
+
+Write a function called fizz buzz tree:
+- Arguments: k-ary tree
+- Return: new k-ary tree
+
+Determine whether or not the value of each node is divisible by 3, 5 or both.
+Create a new tree with the same structure as the original, but the values modified as follows:
+
+- If the value is divisible by 3, replace the value with “Fizz”
+- If the value is divisible by 5, replace the value with “Buzz”
+- If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+- If the value is not divisible by 3 or 5, simply turn the number into a String.
+
+![Code Challenge 18 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2018%20Whiteboard.png)
