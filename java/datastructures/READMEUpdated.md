@@ -230,3 +230,15 @@ Create a new tree with the same structure as the original, but the values modifi
 - If the value is not divisible by 3 or 5, simply turn the number into a String.
 
 ![Code Challenge 18 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2018%20Whiteboard.png)
+
+## Code Challenge 26
+
+Selection and sort:
+
+- Given pseudocode create a whitboard walkthrough of the provided array.
+- Convert the pseudocode into working code in your language
+- Present a complete set of working tests
+
+This code was done as a group with Nick Brown, Kyle Knight, Ryan Gosselin, Juan Olmedo
+
+**Resources canvas examples, gpt.
