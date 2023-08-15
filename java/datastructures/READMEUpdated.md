@@ -238,7 +238,22 @@ Selection and sort:
 - Given pseudocode create a whitboard walkthrough of the provided array.
 - Convert the pseudocode into working code in your language
 - Present a complete set of working tests
-
+-
+![Code Challenge 26 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2026%20Whiteboard.png)
 This code was done as a group with Nick Brown, Kyle Knight, Ryan Gosselin, Juan Olmedo
+
+**Resources canvas examples, gpt.
+
+## Code Challenge 27
+
+Merge and sort:
+
+- Given pseudocode create a whiteboard walkthrough of the provided array.
+- Convert the pseudocode into working code in your language
+- Present a complete set of working tests
+
+![Code Challenge 27 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2027%20Whiteboard.png)
+This whiteboard was done as a group with Nick Brown, Kyle Knight, Ryan Gosselin, Juan Olmedo. We did
+reach coding due to time box to an hour and the complexity of this code.
 
 **Resources canvas examples, gpt.
