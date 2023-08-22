@@ -7,7 +7,7 @@ import java.util.List;
 
 public class BinaryTree {
 
-  TreeNode root;
+  public TreeNode root;
 
   public List<Integer> preOrder() {
     List<Integer> values = new ArrayList<>();
