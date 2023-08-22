@@ -257,3 +257,13 @@ This whiteboard was done as a group with Nick Brown, Kyle Knight, Ryan Gosselin,
 reach coding due to time box to an hour and the complexity of this code.
 
 **Resources canvas examples, gpt.
+
+## Code Challenge 31
+
+Tree Intersection:
+
+- Write a function called tree_intersection that takes two binary trees as parameters.
+- Using Hashmap implementation as a part of your algorithm, return a set of values found in both trees.
+
+![Code Challenge 32 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2032%20Whiteboard.png)
+**Resources for IntelliJ code and test was ChatGPT.
