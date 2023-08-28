@@ -267,3 +267,19 @@ Tree Intersection:
 
 ![Code Challenge 32 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2032%20Whiteboard.png)
 **Resources for IntelliJ code and test was ChatGPT.
+
+## Code Challenge 36
+
+Implement a breadth-first traversal on a graph.
+
+- Write the following method for the Graph class:
+
+- breadth first
+- Arguments: Node
+- Return: A collection of nodes in the order they were visited.
+- Display the collection
+
+![Code Challenge 36 Whiteboard.png](lib%2FScreenshots%2FCode%20Challenge%2036%20Whiteboard.png)
+
+**Resources for visual and some pseudo were Class Lecture and  ChatGPT.
+
